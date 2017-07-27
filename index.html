@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Linked List Loop Detection</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="row">
+            <div id="control" class="col-2">
+                <div class="form-group">
+                    <label for="list_length"> Length of List </label>
+                    <input id="list_length" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="loop_length"> Length of Loop </label>
+                    <input id="loop_length" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="slow_pointer_speed"> Slow Pointer Speed </label>
+                    <input id="slow_pointer_speed" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label> Fast Pointer Speed </label>
+                    <input id="fast_pointer_speed" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label> Simulation Speed </label>
+                    <input id="simulation_speed" type="text" class="form-control">
+                </div>
+                <button id="start" type="Submit" class="btn btn-primary">Start</button>
+            </div>
+            <div id="simulation" class="col-10">
+                <svg id="list" height="600" width="1200">
+                </svg>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script src="simulation.js"></script>
+    </body>
+</html>
